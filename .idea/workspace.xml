@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5798d9e-b842-4f64-9bcc-0a1147a99b0f" name="Changes" comment="" />
+    <list default="true" id="c5798d9e-b842-4f64-9bcc-0a1147a99b0f" name="Changes" comment="Added the project">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courseinfo/migrations/0006_alter_registration_unique_together.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +25,17 @@
         <option value="HTML File" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -44,6 +61,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/ritikapateriya/PycharmProjects/pateriya_ritika_ezu/pateriya_ritika_ezu",
     "node.js.detected.package.eslint": "true",
@@ -119,12 +137,31 @@
       <workItem from="1680800731966" duration="7808000" />
       <workItem from="1681364605368" duration="20675000" />
       <workItem from="1682621997202" duration="29000" />
-      <workItem from="1682622042190" duration="1848000" />
+      <workItem from="1682622042190" duration="4613000" />
     </task>
+    <task id="LOCAL-00001" summary="Added the project">
+      <created>1682623914749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682623914749</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -136,5 +173,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the project" />
   </component>
 </project>
